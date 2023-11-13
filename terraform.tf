@@ -1,19 +1,20 @@
 terraform {
 
-  cloud {
-    organization = "organization-name"
+  /* cloud {
+    organization = "KLIK-Engineering"
 
     workspaces {
-      name = "learn-terraform-cloud"
+      name = "klik-tf"
     }
   }
-
+*/
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.28.0"
+      #version = "~> 3.28.0"
+    
     }
   }
 
-  required_version = ">= 0.14.0"
+  #required_version = ">= 0.14.0"
 }
